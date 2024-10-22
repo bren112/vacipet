@@ -1,0 +1,131 @@
+.noticias-resumidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  #title-home{
+    text-align: center;
+    font-size: 3.2pc;
+    font-weight: 700;
+    color: var(--hallowen);
+  }
+  #title1{
+    text-align: center;
+    font-size: 3.2pc;
+    font-weight: 700;
+    color: var(--primary);
+
+  }
+  #title2{
+    text-align: center;
+    font-size: 3.2pc;
+    font-weight: 700;
+    color: var(--hallowen);
+
+  }
+  #da{
+    text-align: center;
+    font-size: 3.2pc;
+    font-weight: 200;
+    color: var(--primary);
+
+  }
+  .subtitulo{
+    background-color: var(--hallowen);
+
+  }
+  #span{
+    color: white;
+  }
+  #sub {
+    font-size: 18px;
+    background-color: var(--hallowen);
+    color: white; 
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scrolling-text 20s linear infinite; 
+  }
+  
+.colaboradores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.colaborador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100px;
+}
+
+.colaborador-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.colaborador-nome {
+  text-align: center;
+  font-size: 0.9em;
+}
+.banner_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+#banner{
+  width: 21pc;
+}
+#button_home{
+  width: 13pc;
+    height: 3pc;
+    font-size: 1.5pc;
+    border: none;
+    border-radius: 1pc;
+    background-color: var(--hallowen);
+    font-weight: 300;
+}
+@media (max-width: 768px) {
+  #banner{
+    width: 28pc;
+  }
+  #button_home{
+    width: 19pc;
+      height: 5pc;
+      font-size: 1.8pc;
+      border: none;
+      border-radius: 1pc;
+      background-color: var(--hallowen);
+      font-weight: 300;
+  }
+}
+
+@media (max-width: 480px) {
+  #banner{
+    width: 28pc;
+  }
+  #button_home{
+    width: 19pc;
+      height: 5pc;
+      font-size: 1.8pc;
+      border: none;
+      border-radius: 1pc;
+      background-color: var(--hallowen);
+      font-weight: 300;
+  }
+
+  }
+  @keyframes scrolling-text {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
