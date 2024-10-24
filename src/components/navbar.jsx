@@ -35,13 +35,13 @@ function Navbar() {
                 <li className="nav__item"><Link to="/loc" className="nav__link">Localização</Link></li>
                 <li className="nav__item"><Link to="/login" className="nav__link">Login</Link></li>
 
-                {/* Exibe os links apenas nas rotas /pets ou /meuspets */}
-                {(location.pathname === '/pets' || location.pathname === '/meuspets') && isLoggedIn() && (
-                    <>
-                        <li className="nav__item"><Link to="/pets" className="nav__link">Cadastrar Pets</Link></li>
+                <li className="nav__item"><Link to="/pets" className="nav__link">Cadastrar Pets</Link></li>
                         <li className="nav__item"><Link to="/meuspets" className="nav__link">Meus Pets</Link></li>
+                {/* Exibe os links apenas nas rotas /pets ou /meuspets */}
+                {/* {(location.pathname === '/pets' || location.pathname === '/meuspets') && isLoggedIn() && (
+                    <>
                     </>
-                )}
+                )} */}
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
                 <div className="line1"></div>
