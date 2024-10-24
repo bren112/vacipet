@@ -1,0 +1,72 @@
+.meus-pets-container {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.usuario-logado {
+    margin-bottom: 20px;
+}
+
+.pets-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+span {
+    font-size: 1rem;
+    color: #888;
+}
+
+.pets-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pet-item {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.pet-item:hover {
+    background-color: #e0e0e0;
+}
+
+.pet-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+#title{
+    font-size: 4pc;
+    font-weight: 700;
+    color: orange;
+}
+.pet-name{
+    text-align: center;
+    font-size: 2pc;
+    font-weight: 400;
+}

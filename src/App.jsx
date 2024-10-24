@@ -8,6 +8,9 @@ import Footer from "./components/footer";
 import Saiba from "./pages/saibamais/Saiba";
 import Pets from "./pages/meuspets/Pets";
 import Loc from "./pages/localizacao/Localizacao";
+import Login from "./pages/login/Login";
+import MeusPets from "./pages/meuspets/meuspets";
+
 function App() {
   return (
     <BrowserRouter>
@@ -22,11 +25,13 @@ function App() {
           <Route path="/saiba" element={<Saiba />} />
           <Route path="/pets" element={<Pets />} />
           <Route path="/loc" element={<Loc />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/meuspets" element={<MeusPets />} />
           
          
           
         </Routes>
-     <Footer />
+     {/* <Footer /> */}
       </div>
     </BrowserRouter>
     

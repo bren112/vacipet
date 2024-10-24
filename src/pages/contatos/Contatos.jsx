@@ -7,7 +7,7 @@ function Contatos() {
     <div className="pai">
 
 
-      <div className="container">
+      <div className="containerr">
         <div className="content">
           <div className="left-side">
             <div className="address details">
